@@ -1,0 +1,27 @@
+[theme]
+base = "light"
+font = "'Atkinson Hyperlegible':https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap"
+primaryColor = "#5B4BC4"
+backgroundColor = "#F2F5F9"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#14213D"
+borderColor = "#DCE2EB"
+baseRadius = "10px"
+redColor = "#C8102E"
+greenColor = "#2F855A"
+orangeColor = "#B7791F"
+violetColor = "#5B4BC4"
+linkColor = "#5B4BC4"
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#14213D"
+secondaryBackgroundColor = "#1E2D4F"
+textColor = "#E6EBF4"
+borderColor = "#2C3D63"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

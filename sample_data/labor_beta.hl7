@@ -1,0 +1,29 @@
+MSH|^~\&|LIS|LABOR_BETA|PRAXSYS|ORDINATION|202608161430||ORU^R01|B-MSG-B260816123|P|2.5
+PID|1||1235120458^^^SVNR||Demo^Anna||19580412|F
+OBR|1||B260816123|PANEL^Laborbefund^L|||202608160730|||||||||KH101^Berger^Stefan^^^Dr.
+OBX|1|NM|GLUC-S^Glukose Serum^L||8.1|mmol/L|3.9-5.5|H|||F
+OBX|2|NM|A1C-IFCC^HbA1c IFCC^L||64|mmol/mol|20-42|H|||F
+OBX|3|NM|CREA-E^Kreatinin enzymatisch^L||115|umol/L|45-84|H|||F
+OBX|4|NM|KALIUM^Kalium^L||5.0|mmol/L|3.5-5.1|N|||F
+OBX|5|NM|NATRIUM^Natrium^L||137|mmol/L|136-145|N|||F
+OBX|6|NM|TCHOL^Gesamtcholesterin^L||5.5|mmol/L|<5.2|H|||F
+OBX|7|NM|HGB^Haemoglobin^L||123|g/L|120-160|N|||F
+OBX|8|NM|CRP-Q^CRP quantitativ^L||0.4|mg/dL|<0.5|N|||F
+MSH|^~\&|LIS|LABOR_BETA|PRAXSYS|ORDINATION|202610161430||ORU^R01|B-MSG-B261016123|P|2.5
+PID|1||1235120458^^^SVNR||Demo^Anna||19580412|F
+OBR|1||B261016123|PANEL^Laborbefund^L|||202610160730|||||||||KH101^Berger^Stefan^^^Dr.
+OBX|1|NM|GLUC-S^Glukose Serum^L||8.4|mmol/L|3.9-5.5|H|||F
+OBX|2|NM|A1C-IFCC^HbA1c IFCC^L||66|mmol/mol|20-42|H|||F
+OBX|3|NM|CREA-E^Kreatinin enzymatisch^L||124|umol/L|45-84|H|||F
+OBX|4|NM|KALIUM^Kalium^L||5.3|mmol/L|3.5-5.1|H|||F
+OBX|5|NM|NATRIUM^Natrium^L||137|mmol/L|136-145|N|||F
+OBX|6|NM|TCHOL^Gesamtcholesterin^L||5.4|mmol/L|<5.2|H|||F
+OBX|7|NM|HGB^Haemoglobin^L||119|g/L|120-160|L|||F
+OBX|8|NM|CRP-Q^CRP quantitativ^L||0.3|mg/dL|<0.5|N|||F
+OBX|9|NM|VITD^25-OH-Vitamin D^L||18|ng/mL|30-100|L|||F
+MSH|^~\&|LIS|LABOR_BETA|PRAXSYS|ORDINATION|202610271430||ORU^R01|B-MSG-B261027456|P|2.5
+PID|1||4562030971^^^SVNR||Muster^Max||19710903|M
+OBR|1||B261027456|PANEL^Laborbefund^L|||202610270730|||||||||KH101^Berger^Stefan^^^Dr.
+OBX|1|NM|TSH3^TSH 3. Generation^L||1.9|mIU/L|0.27-4.20|N|||F
+OBX|2|NM|WBC^Leukozyten^L||6.8|G/L|4.0-10.0|N|||F
+OBX|3|NM|CRP-Q^CRP quantitativ^L||0.2|mg/dL|<0.5|N|||F

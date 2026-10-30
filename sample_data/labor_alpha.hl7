@@ -1,0 +1,41 @@
+MSH|^~\&|LIS|LABOR_ALPHA|PRAXSYS|ORDINATION|202511241430||ORU^R01|A-MSG-A251124123|P|2.5
+PID|1||1235120458^^^SVNR||Demo^Anna||19580412|F
+PD1||||GP001^Huber^Maria^^^Dr.
+OBR|1||A251124123|PANEL^Laborbefund^L|||202511240730|||||||||GP001^Huber^Maria^^^Dr.
+OBX|1|NM|GLU^Glucose^L||128|mg/dL|70-99|H|||F
+OBX|2|NM|HBA1C^HbA1c^L||7.2|%|4.0-6.0|H|||F
+OBX|3|NM|KREA^Kreatinin^L||1.0|mg/dL|0.50-1.00|N|||F
+OBX|4|NM|K^Kalium^L||4.3|mmol/L|3.5-5.1|N|||F
+OBX|5|NM|NA^Natrium^L||140|mmol/L|136-145|N|||F
+OBX|6|NM|CHOL^Cholesterin gesamt^L||232|mg/dL|<200|H|||F
+OBX|7|NM|HB^Haemoglobin^L||13.1|g/dL|12.0-16.0|N|||F
+MSH|^~\&|LIS|LABOR_ALPHA|PRAXSYS|ORDINATION|202602221430||ORU^R01|A-MSG-A260222123|P|2.5
+PID|1||1235120458^^^SVNR||Demo^Anna||19580412|F
+PD1||||GP001^Huber^Maria^^^Dr.
+OBR|1||A260222123|PANEL^Laborbefund^L|||202602220730|||||||||GP001^Huber^Maria^^^Dr.
+OBX|1|NM|GLU^Glucose^L||135|mg/dL|70-99|H|||F
+OBX|2|NM|HBA1C^HbA1c^L||7.5|%|4.0-6.0|H|||F
+OBX|3|NM|KREA^Kreatinin^L||1.1|mg/dL|0.50-1.00|H|||F
+OBX|4|NM|K^Kalium^L||4.5|mmol/L|3.5-5.1|N|||F
+OBX|5|NM|NA^Natrium^L||139|mmol/L|136-145|N|||F
+OBX|6|NM|CHOL^Cholesterin gesamt^L||224|mg/dL|<200|H|||F
+OBX|7|NM|HB^Haemoglobin^L||12.8|g/dL|12.0-16.0|N|||F
+MSH|^~\&|LIS|LABOR_ALPHA|PRAXSYS|ORDINATION|202605231430||ORU^R01|A-MSG-A260523123|P|2.5
+PID|1||1235120458^^^SVNR||Demo^Anna||19580412|F
+PD1||||GP001^Huber^Maria^^^Dr.
+OBR|1||A260523123|PANEL^Laborbefund^L|||202605230730|||||||||GP001^Huber^Maria^^^Dr.
+OBX|1|NM|GLU^Glucose^L||142|mg/dL|70-99|H|||F
+OBX|2|NM|HBA1C^HbA1c^L||7.8|%|4.0-6.0|H|||F
+OBX|3|NM|KREA^Kreatinin^L||1.2|mg/dL|0.50-1.00|H|||F
+OBX|4|NM|K^Kalium^L||4.8|mmol/L|3.5-5.1|N|||F
+OBX|5|NM|NA^Natrium^L||138|mmol/L|136-145|N|||F
+OBX|6|NM|CHOL^Cholesterin gesamt^L||218|mg/dL|<200|H|||F
+OBX|7|NM|HB^Haemoglobin^L||12.6|g/dL|12.0-16.0|N|||F
+MSH|^~\&|LIS|LABOR_ALPHA|PRAXSYS|ORDINATION|202609301430||ORU^R01|A-MSG-A260930456|P|2.5
+PID|1||4562030971^^^SVNR||Muster^Max||19710903|M
+PD1||||GP002^Novak^Peter^^^Dr.
+OBR|1||A260930456|PANEL^Laborbefund^L|||202609300730|||||||||GP002^Novak^Peter^^^Dr.
+OBX|1|NM|TSH^TSH basal^L||2.1|mIU/L|0.27-4.20|N|||F
+OBX|2|NM|LEUK^Leukozyten^L||6.4|G/L|4.0-10.0|N|||F
+OBX|3|NM|CRP^CRP^L||3.0|mg/L|<5|N|||F
+OBX|4|NM|HB^Haemoglobin^L||15.2|g/dL|13.5-17.5|N|||F
