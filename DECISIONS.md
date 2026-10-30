@@ -3,8 +3,7 @@
 Track 2, Health Data Interoperability · Vienna
 
 This report explains why LabBridge was built, how it works, and why each important choice was made.
-It is written for judges, mentors and the team itself. Every decision lists the alternatives that were
-considered, so the reasoning can be challenged.
+Every decision lists the alternatives that were considered, so the reasoning can be checked.
 
 ---
 
@@ -205,10 +204,10 @@ looks current.
   to FHIR), was dropped.
 - **Alternatives:** wearables to FHIR; merging records from two systems; an HL7 v2 to FHIR converter
   on its own.
-- **Why:** blood work affects almost every patient and every judge has experienced a repeated blood
-  test. It uses **both** standards named in the track (HL7 v2 in, FHIR out) and hits all three
+- **Why:** blood work affects almost every patient, and most people have had a blood
+  test repeated. It uses **both** standards named in the track (HL7 v2 in, FHIR out) and hits all three
   problems in the track description. It has current Austrian relevance (ELGA lab mandate, Court of
-  Audit). Two topics in one demo would weaken the story, so the wearable idea is a future extension
+  Audit). Two topics in one product would blur its focus, so the wearable idea is a future extension
   only: the same pipeline would work for device data.
 
 ### D3. Input format: HL7 v2 lab messages
@@ -350,16 +349,17 @@ looks current.
 - **Decision:** two interchangeable backends: a local store that behaves like a FHIR server
   (transactions, conditional create, references), and a real FHIR server over REST (the public HAPI
   test server or any URL).
-- **Why:** the demo must not depend on venue Wi-Fi, but the team must also be able to show that the
-  data works on a real FHIR server. The public server is visible to everyone, so only fake data is used.
+- **Why:** the prototype must work without an internet connection, and it must also be possible
+  to show that the data works on a real FHIR server. The public server is visible to everyone, so
+  only fake data is used.
 
 ### D17. Technology: Python and Streamlit
 
 - **Decision:** Python for everything, Streamlit for the dashboard, one app with one interface.
 - **Alternatives:** a React web app with a separate backend.
 - **Why:** both team members can read and change Python, Streamlit turns a Python script into a web
-  app without separate frontend code, and a 24-hour hackathon rewards speed and reliability over a
-  custom frontend.
+  app without separate frontend code, and a working prototype in a short time matters more here than
+  a custom frontend.
 
 ### D18. Interface: urgent things first
 
@@ -382,8 +382,8 @@ looks current.
 
 - **Decision:** all patients, doctors, labs, hospitals and values are invented and labelled
   "(fictional)". Reference ranges, retest intervals and overdue limits are illustrative.
-- **Why:** real health data must not be used in a hackathon, and especially not on a public test
-  server. Illustrative clinical values are clearly marked so nobody mistakes them for guidance.
+- **Why:** real health data must not be used in a prototype, and especially not on a public
+  test server. Illustrative clinical values are clearly marked so nobody mistakes them for guidance.
 
 ---
 
@@ -401,8 +401,6 @@ LabBridge is a prototype. It is not ready for real patients:
   values.
 - **Not validated against Austrian profiles.** The output uses the HL7 Austria identifier for the
   SVNR, but has not been checked against the full Austrian FHIR profiles.
-- **Not tested on the public HAPI server from the development environment**; the team should run it
-  there once before the event.
 - **Regulation.** Software that flags results or warns doctors may count as a medical device under the
   EU Medical Device Regulation, which would require a conformity assessment.
 
